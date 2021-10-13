@@ -1,2 +1,3 @@
-# templates-gradiants
-templates of react.js front-end
+# David Alen | Porfolio
+
+React.js portfolio
