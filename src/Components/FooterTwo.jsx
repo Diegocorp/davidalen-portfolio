@@ -1,6 +1,5 @@
 import React from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import footLogo from "../../public/assets/images/logo/blizttechLogo2.png";
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/Genocide01" },
