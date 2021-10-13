@@ -12,11 +12,11 @@ import {
 } from "react-icons/fi";
 
 import FooterTwo from "../Components/FooterTwo";
-import Header from "../Components/HeaderFour";
 import TabThree from "../Components/TabThree";
 import Helmet from "../Components/Helmet";
 import Contact from "../Components/Contact";
 import Brand from "../Components/Brand";
+import HeaderDynamic from "../Components/HeaderDynamic";
 
 const SlideList = [
   {
@@ -34,15 +34,11 @@ const DesignerPortfolio = () => {
       <Helmet pageTitle="Designer Portfolio" />
 
       {/* Start Header Area  */}
-      <Header
-        headerPosition="header--static"
-        logo="symbol-dark"
-        color="color-black"
-      />
+      <HeaderDynamic />
       {/* End Header Area  */}
 
-      <div className="slider-wrapper">
-        {/* Start Single Slide */}
+      {/* Start Home section */}
+      <div className="slider-wrapper" id="home">
         {SlideList.map((value, index) => (
           <div
             className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height"
@@ -70,7 +66,7 @@ const DesignerPortfolio = () => {
                         <span> Content Writter.</span>
                       </TextLoop>{" "}
                     </h1>
-                    <h2>based in USA.</h2>
+                    <h2>based in Bangladesh.</h2>
                     {value.description ? (
                       <p className="description">{value.description}</p>
                     ) : (
@@ -94,19 +90,32 @@ const DesignerPortfolio = () => {
             </div>
           </div>
         ))}
-        {/* End Single Slide */}
       </div>
+      {/* End Home section */}
 
       {/* Start Designer Portfolio  */}
-      <div className="designer-portfolio-area ptb--120 bg_color--1">
-        <div className="wrapper plr--70 plr_sm--30 plr_md--30">
-          <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
+      <div id="projects">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="section-title text-center service-style--3 mt--120">
+              <h2 className="title">My Projects</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="designer-portfolio-area ptb--70 bg_color--1">
+          <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+            <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
+          </div>
         </div>
       </div>
       {/* End Designer Portfolio  */}
 
       {/* Start Brand Section  */}
-      <div className="rn-brand-area ptb--120 bg_color--5">
+      <div className="rn-brand-area ptb--120 bg_color--5" id="clients">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -129,7 +138,7 @@ const DesignerPortfolio = () => {
       {/* End Brand Section  */}
 
       {/* Start Contact Section  */}
-      <div className="rn-brand-area ptb--120 bg_color-white">
+      <div className="rn-brand-area ptb--120 bg_color-white" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

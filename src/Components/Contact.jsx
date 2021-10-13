@@ -17,10 +17,10 @@ function Contact() {
                 <div className="inner">
                   <h4 className="title">Contact With Phone Number</h4>
                   <p>
-                    <a href="tel:+057 254 365 456">+057 254 365 456</a>
+                    <a href="tel:+880 123 456 7890">(+880) 123-456-7890</a>
                   </p>
                   <p>
-                    <a href="tel:+856 325 652 984">+856 325 652 984</a>
+                    <a href="tel:+880 123 456 7688">(+880) 123-456-7688</a>
                   </p>
                 </div>
               </div>
@@ -36,10 +36,14 @@ function Contact() {
                 <div className="inner">
                   <h4 className="title">Email Address</h4>
                   <p>
-                    <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+                    <a href="mailto:davidalen89@gmail.com">
+                      davidalen89@gmail.com
+                    </a>
                   </p>
                   <p>
-                    <a href="mailto:example@gmail.com">example@gmail.com</a>
+                    <a href="mailto:disgasalend@gmail.com">
+                      disgasalend@gmail.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -55,8 +59,7 @@ function Contact() {
                 <div className="inner">
                   <h4 className="title">Location</h4>
                   <p>
-                    5678 Bangla Main Road, cities 580 <br /> GBnagla, example
-                    54786
+                    Sheikh Mujibur Rahman // Dhanmondi. 32 Dhaka-1209 Bangladesh
                   </p>
                 </div>
               </div>
