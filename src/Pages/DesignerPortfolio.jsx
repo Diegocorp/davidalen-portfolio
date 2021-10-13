@@ -100,8 +100,8 @@ const DesignerPortfolio = () => {
             <div className="section-title text-center service-style--3 mt--120">
               <h2 className="title">My Projects</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration.
+                Take a look at some of my software design projects and find out
+                what I can do for you.
               </p>
             </div>
           </div>
@@ -121,10 +121,7 @@ const DesignerPortfolio = () => {
             <div className="col-lg-12">
               <div className="section-title text-center service-style--3 mb--30">
                 <h2 className="title">My Clients</h2>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration.
-                </p>
+                <p>Some of the most prominent clients I have worked with.</p>
               </div>
             </div>
           </div>
@@ -145,8 +142,8 @@ const DesignerPortfolio = () => {
               <div className="section-title text-center service-style--3">
                 <h2 className="title">Contact me</h2>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration.
+                  Get in touch if you want to work with me or have a project in
+                  mind that I can help you with.
                 </p>
               </div>
             </div>
