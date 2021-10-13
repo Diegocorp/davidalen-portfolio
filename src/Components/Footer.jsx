@@ -1,15 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
-const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/Genocide01" },
-  {
-    Social: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/bliztripper/",
-  },
-];
-
-const FooterTwo = () => {
+const Footer = () => {
   return (
     <div
       className="footer-style-2 ptb--30 bg_image bg_image--1"
@@ -41,4 +33,4 @@ const FooterTwo = () => {
     </div>
   );
 };
-export default FooterTwo;
+export default Footer;

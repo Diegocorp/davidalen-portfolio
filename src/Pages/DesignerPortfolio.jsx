@@ -1,18 +1,10 @@
 import React from "react";
 import ScrollToTop from "react-scroll-up";
 import TextLoop from "react-text-loop";
-import Scrollspy from "react-scrollspy";
-import {
-  FiChevronUp,
-  FiHeadphones,
-  FiMail,
-  FiMapPin,
-  FiX,
-  FiMenu,
-} from "react-icons/fi";
+import { FiChevronUp } from "react-icons/fi";
 
-import FooterTwo from "../Components/FooterTwo";
-import TabThree from "../Components/TabThree";
+import Footer from "../Components/Footer";
+import Table from "../Components/Table";
 import Helmet from "../Components/Helmet";
 import Contact from "../Components/Contact";
 import Brand from "../Components/Brand";
@@ -108,7 +100,7 @@ const DesignerPortfolio = () => {
         </div>
         <div className="designer-portfolio-area ptb--70 bg_color--1">
           <div className="wrapper plr--70 plr_sm--30 plr_md--30">
-            <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
+            <Table column="col-lg-4 col-md-6 col-sm-6 col-12" />
           </div>
         </div>
       </div>
@@ -159,7 +151,7 @@ const DesignerPortfolio = () => {
       {/* End Contact Section  */}
 
       {/* Start Footer Style  */}
-      <FooterTwo />
+      <Footer />
       {/* End Footer Style  */}
 
       {/* Start Back To Top */}
