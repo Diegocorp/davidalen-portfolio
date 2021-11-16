@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 
 import "./index.scss";
 
+//team slide
+
 /*PAGES*/
 import DesignerPortfolio from "./Pages/DesignerPortfolio";
 
