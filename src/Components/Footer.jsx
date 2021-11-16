@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="text">
                 <p>
                   Developed by
-                  <a href="https://diegocorp.github.io/" target="_blank">
+                  <a href="https://www.diegosandoval.tech/" target="_blank">
                     <strong> Diego Sandoval</strong>
                   </a>
                 </p>
